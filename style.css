@@ -1,0 +1,165 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+
+body{
+    background-color: #080708;
+    font-family: "Aeonik Pro";
+}
+.front .nav .register{
+    display: flex;
+    flex-direction: row;
+    
+    justify-content: space-around;
+    align-items: center;
+    height: 15%;
+    font-size: 2vw;
+    color: #fff;
+    background-color:#101012 ;
+}
+
+.register{
+    display: flex;
+    color:white;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    padding-right:40px;
+    padding-left:40px;
+
+}
+
+.star{
+    background-color: #fff;
+}
+.menu-bar{
+    background-color:  #080708;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Poppins";
+    font-size: 24px;
+    color:white;
+    border-top:2px solid grey;
+    border-bottom:2px solid grey;
+}
+
+#options-container{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 70px;
+}
+
+.menu-bar img{
+    width:200px;
+}
+
+.menu-bar button{
+    width:150px;
+    height: 35px;
+    border-radius: 10px;
+    background-color: red;
+    color:white;
+    margin-right: 30px;
+}
+
+
+
+.Get-started{
+    background-color: #f4a261;
+}
+
+#build #build-div-holder{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color:aliceblue;
+    background-color: black;
+    padding: 10px;
+}
+#build #build-div-holder h1{
+    font-size: 100px;
+}
+
+#build #build-div-holder p{
+    font-size: 40px;
+    margin-top: 60px;
+    color: grey;
+}
+#build #build-div-holder button{
+    color: white;
+    background-color: red;
+    font-size:40px;
+    margin-top: 20px;
+    border-radius: 0.8rem;
+    width: 400px;
+}
+
+#build-left{
+    width:100vw;
+}
+
+.image{
+    width:100vw
+}
+
+.features{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 40px;
+    color: white;
+    background-color: black;
+}
+
+#hustle{
+    color:white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width:100vw;
+    text-align: center;
+}
+
+#hustle h2{
+    font-size: 58px;
+}
+
+#hustle p{
+    font-size: 24px;
+}
+
+.outer{
+    display: flex;
+    align-items: centre;
+    flex-direction: column;
+    gap: 10px;
+    margin-top:30px;
+    border-bottom: 2px solid grey;
+    color: white;
+}
+.outer .icon{
+    margin-left: 30%;
+    color: white;
+}
+.outer h1,pre{
+    margin: 10px;
+    margin-left: 30%;
+}
+.outer h1{
+    font-size: 58px;
+}
+.outer  pre{
+    font-size: 24px;
+}
+
+.feature-image{
+    width:50vw;
+    margin-left:25vw;
+}
